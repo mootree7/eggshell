@@ -1,0 +1,35 @@
+Service Account Specifications
+=============================
+
+Proposed Accounts:
+-----------------
+SNOWFLAKE Read:
+LESRETIREMENTSNFR2
+
+SNOWFLAKE Prod:
+LESRETIREMENTSNFP2
+
+SNOWFLAKE Stage:
+LESRETIREMENTSNFQ1
+
+Proposed Account Alias:
+----------------------
+SNOWFLAKE Read:
+domino-ENT-retirement-small-batch-SNFR
+
+SNOWFLAKE Prod:
+domino-ENT-retirement-small-batch-SNFP
+
+SNOWFLAKE Stage:
+domino-ENT-retirement-small-batch-SNFQ
+
+Group Descriptor:
+----------------
+SNOWFLAKE Read:
+LESRETIREMENTR
+
+SNOWFLAKE Prod:
+LESRETIREMENTP
+
+SNOWFLAKE Stage:
+LESRETIREMENTQ
