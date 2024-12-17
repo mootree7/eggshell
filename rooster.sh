@@ -181,16 +181,16 @@ extract_file="$output_dir/extract.sql"
     echo "Proposed Accounts:"
     echo "-----------------"
     echo "SNOWFLAKE Read:"
-    echo "${app_name}-${project_name}-SNF-R-1"
-    echo "${app_name}-${project_name}-SNF-R-2"
+    echo "${app_name}${project_name}SNFR1"
+    echo "${app_name}${project_name}SNFR2"
     echo
     echo "SNOWFLAKE Prod:"
-    echo "${app_name}-${project_name}-SNF-PROD-1"
-    echo "${app_name}-${project_name}-SNF-PROD-2"
+    echo "${app_name}${project_name}SNFP1"
+    echo "${app_name}${project_name}SNFP2"
     echo
     echo "SNOWFLAKE Stage:"
-    echo "${app_name}-${project_name}-SNF-STAGE-1"
-    echo "${app_name}-${project_name}-SNF-STAGE-2"
+    echo "${app_name}${project_name}SNFQ1"
+    echo "${app_name}${project_name}SNFQ2"
     echo
     echo "Proposed Account Alias:"
     echo "----------------------"
@@ -198,10 +198,10 @@ extract_file="$output_dir/extract.sql"
     echo "domino-ENT-${project_name,,}-small-batch-SNFR"
     echo
     echo "SNOWFLAKE Prod:"
-    echo "domino-ENT-${project_name,,}-small-batch-SNFPROD"
+    echo "domino-ENT-${project_name,,}-small-batch-SNFP"
     echo
     echo "SNOWFLAKE Stage:"
-    echo "domino-ENT-${project_name,,}-small-batch-SNFSTAGE"
+    echo "domino-ENT-${project_name,,}-small-batch-SNFQ"
     echo
     echo "Group Descriptor:"
     echo "----------------"
@@ -212,10 +212,10 @@ extract_file="$output_dir/extract.sql"
     echo "${clean_app}${clean_project}READ"
     echo
     echo "SNOWFLAKE Prod:"
-    echo "${clean_app}${clean_project}PROD"
+    echo "${clean_app}${clean_project}P"
     echo
     echo "SNOWFLAKE Stage:"
-    echo "${clean_app}${clean_project}STAGE"
+    echo "${clean_app}${clean_project}Q"
 } > "$accounts_file"
 
 # Generate the database structure file
